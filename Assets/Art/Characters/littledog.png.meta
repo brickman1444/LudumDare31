@@ -1,0 +1,707 @@
+fileFormatVersion: 2
+guid: 555f5d9ae7f4beb44a13b81ab676fe82
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: littledog_0
+    21300002: littledog_1
+    21300004: littledog_2
+    21300006: littledog_3
+    21300008: littledog_4
+    21300010: littledog_5
+    21300012: littledog_6
+    21300014: littledog_7
+    21300016: littledog_8
+    21300018: littledog_9
+    21300020: littledog_10
+    21300022: littledog_11
+    21300024: littledog_12
+    21300026: littledog_13
+    21300028: littledog_14
+    21300030: littledog_15
+    21300032: littledog_16
+    21300034: littledog_17
+    21300036: littledog_18
+    21300038: littledog_19
+    21300040: littledog_20
+    21300042: littledog_21
+    21300044: littledog_22
+    21300046: littledog_23
+    21300048: littledog_24
+    21300050: littledog_25
+    21300052: littledog_26
+    21300054: littledog_27
+    21300056: littledog_32
+    21300058: littledog_33
+    21300060: littledog_34
+    21300062: littledog_35
+    21300064: littledog_36
+    21300066: littledog_37
+    21300068: littledog_38
+    21300070: littledog_39
+    21300072: littledog_43
+    21300074: littledog_44
+    21300076: littledog_45
+    21300078: littledog_46
+    21300080: littledog_47
+    21300082: littledog_48
+    21300084: littledog_49
+    21300086: littledog_50
+    21300088: littledog_53
+    21300090: littledog_54
+    21300092: littledog_55
+    21300094: littledog_56
+    21300096: littledog_57
+    21300098: littledog_58
+    21300100: littledog_59
+    21300102: littledog_60
+    21300104: littledog_64
+    21300106: littledog_65
+    21300108: littledog_66
+    21300110: littledog_67
+    21300112: littledog_68
+    21300114: littledog_69
+    21300116: littledog_70
+    21300118: littledog_71
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: littledog_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 546
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 546
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 546
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_3
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 546
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 503
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 503
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_6
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 503
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 469
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 469
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 469
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 432
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_11
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 432
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_12
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 432
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_13
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 398
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_14
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 398
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_15
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 398
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 362
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_17
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 362
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 362
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_19
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 362
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_20
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 312
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_21
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 314
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_22
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 314
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_23
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 313
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_24
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 314
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_25
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 315
+        width: 74
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_26
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 315
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_27
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 315
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_32
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 252
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_33
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 253
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_34
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 254
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_35
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 254
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_36
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 255
+        width: 51
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_37
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 255
+        width: 76
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_38
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 255
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_39
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 255
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_43
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 197
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_44
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 197
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_45
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 198
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_46
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 196
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_47
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 197
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_48
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 197
+        width: 72
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_49
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 197
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_50
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 197
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_53
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 142
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_54
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 142
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_55
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 142
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_56
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 142
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_57
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 143
+        width: 51
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_58
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 143
+        width: 76
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_59
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 143
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_60
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 143
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_64
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 105
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_65
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 105
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_66
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 71
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_67
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 71
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_68
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 35
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_69
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 35
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_70
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littledog_71
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

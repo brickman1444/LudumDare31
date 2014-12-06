@@ -1,0 +1,872 @@
+fileFormatVersion: 2
+guid: 9c4f29b131277364198fd2ca2df03b5f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: largedog_0
+    21300002: largedog_1
+    21300004: largedog_2
+    21300006: largedog_3
+    21300008: largedog_4
+    21300010: largedog_5
+    21300012: largedog_6
+    21300014: largedog_7
+    21300016: largedog_8
+    21300018: largedog_9
+    21300020: largedog_10
+    21300022: largedog_11
+    21300024: largedog_12
+    21300026: largedog_13
+    21300028: largedog_14
+    21300030: largedog_15
+    21300032: largedog_16
+    21300034: largedog_17
+    21300036: largedog_18
+    21300038: largedog_19
+    21300040: largedog_20
+    21300042: largedog_21
+    21300044: largedog_22
+    21300046: largedog_23
+    21300048: largedog_24
+    21300050: largedog_25
+    21300052: largedog_26
+    21300054: largedog_27
+    21300056: largedog_28
+    21300058: largedog_29
+    21300060: largedog_30
+    21300062: largedog_31
+    21300064: largedog_32
+    21300066: largedog_33
+    21300068: largedog_34
+    21300070: largedog_35
+    21300072: largedog_36
+    21300074: largedog_37
+    21300076: largedog_38
+    21300078: largedog_39
+    21300080: largedog_40
+    21300082: largedog_41
+    21300084: largedog_42
+    21300086: largedog_43
+    21300088: largedog_44
+    21300090: largedog_45
+    21300092: largedog_46
+    21300094: largedog_47
+    21300096: largedog_48
+    21300098: largedog_49
+    21300100: largedog_50
+    21300102: largedog_51
+    21300104: largedog_52
+    21300106: largedog_53
+    21300108: largedog_54
+    21300110: largedog_55
+    21300112: largedog_56
+    21300114: largedog_57
+    21300116: largedog_58
+    21300118: largedog_59
+    21300120: largedog_60
+    21300122: largedog_61
+    21300124: largedog_62
+    21300126: largedog_63
+    21300128: largedog_64
+    21300130: largedog_65
+    21300132: largedog_66
+    21300134: largedog_67
+    21300136: largedog_68
+    21300138: largedog_69
+    21300140: largedog_70
+    21300142: largedog_71
+    21300144: largedog_72
+    21300146: largedog_73
+    21300148: largedog_74
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: largedog_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1234
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1233
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1234
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1234
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_4
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1183
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_5
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1179
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_6
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1179
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_7
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1183
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1132
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_9
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1132
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_10
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1132
+        width: 55
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1132
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1084
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_13
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1083
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_14
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1084
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_15
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1034
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_16
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1032
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_17
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1032
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_18
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1034
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 979
+        width: 69
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_20
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 984
+        width: 62
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_21
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 989
+        width: 63
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 931
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_23
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 929
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_24
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 939
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 889
+        width: 70
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_26
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 894
+        width: 70
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_27
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 898
+        width: 66
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_28
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 839
+        width: 58
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_29
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 841
+        width: 59
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_30
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 844
+        width: 60
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 791
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 789
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_33
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 791
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_34
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 722
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_35
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 722
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_36
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 722
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_37
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 722
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_38
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 671
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_39
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 671
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_40
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 671
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_41
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 671
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_42
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 619
+        width: 52
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_43
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 619
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_44
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 619
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_45
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 619
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_46
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 564
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_47
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 564
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_48
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 564
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_49
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 564
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_50
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 514
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_51
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 514
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_52
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 514
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_53
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 514
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_54
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 466
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_55
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 466
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_56
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 466
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_57
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 466
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_58
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 414
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_59
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 414
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_60
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 414
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_61
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 414
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_62
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 439
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_63
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 364
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_64
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 364
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_65
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 364
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_66
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 308
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_67
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 308
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_68
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 308
+        width: 59
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_69
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 259
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_70
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 259
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_71
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 259
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_72
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 259
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_73
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 192
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: largedog_74
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 129
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

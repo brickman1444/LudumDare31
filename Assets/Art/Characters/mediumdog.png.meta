@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: 951adacefff0ca441ae5d32363016e3e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mediumdog_0
+    21300002: mediumdog_1
+    21300004: mediumdog_2
+    21300006: mediumdog_3
+    21300008: mediumdog_4
+    21300010: mediumdog_5
+    21300012: mediumdog_6
+    21300014: mediumdog_7
+    21300016: mediumdog_8
+    21300018: mediumdog_9
+    21300020: mediumdog_10
+    21300022: mediumdog_11
+    21300024: mediumdog_12
+    21300026: mediumdog_13
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mediumdog_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 320
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mediumdog_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 320
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mediumdog_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mediumdog_3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 240
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mediumdog_4
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 244
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mediumdog_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 242
+        width: 55
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mediumdog_6
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 241
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mediumdog_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 163
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mediumdog_8
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 160
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mediumdog_9
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 162
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mediumdog_10
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 165
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mediumdog_11
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 93
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mediumdog_12
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 94
+        width: 51
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mediumdog_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 95
+        width: 50
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
