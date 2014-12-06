@@ -8,6 +8,8 @@ public class avatarMovement : MonoBehaviour {
 
     public static avatarMovement shittyInstance = null;
 
+    public Vector3 lastVelocity { get; private set; }
+
     void Awake()
     {
         shittyInstance = this;

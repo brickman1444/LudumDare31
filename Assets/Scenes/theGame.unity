@@ -380,6 +380,7 @@ GameObject:
   - 114: {fileID: 359108028}
   - 50: {fileID: 359108029}
   - 61: {fileID: 359108030}
+  - 114: {fileID: 359108031}
   m_Layer: 0
   m_Name: Avatar
   m_TagString: Untagged
@@ -464,6 +465,19 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: .319999993, y: .319999993}
   m_Center: {x: 0, y: 0}
+--- !u!114 &359108031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 359108025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faf560eee79f0fa4f9024ef566c50388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  throwingPrefab: {fileID: 100000, guid: 091f1ffb90427d943bfe9dfd8258bd7d, type: 2}
+  secondsBetweenThrows: 1
 --- !u!1 &501235125
 GameObject:
   m_ObjectHideFlags: 0
