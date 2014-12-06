@@ -46,5 +46,10 @@ public class avatarMovement : MonoBehaviour {
         {
             rigidbody2D.velocity = rigidbody2D.velocity.normalized * maxSpeed;
         }
+
+        if (rigidbody2D.velocity != Vector2.zero)
+        {
+            lastVelocity = rigidbody2D.velocity;
+        }
 	}
 }

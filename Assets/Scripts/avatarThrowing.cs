@@ -5,7 +5,9 @@ public class avatarThrowing : MonoBehaviour {
 
     public GameObject throwingPrefab;
     public float secondsBetweenThrows;
-    
+    public float throwingSpeed;
+    public float throwOffset;
+
     private float lastThrowTime = 0;
     private avatarMovement mAvatarMovement;
 
@@ -21,7 +23,14 @@ public class avatarThrowing : MonoBehaviour {
         {
             Debug.Log("Fire");
             lastThrowTime = Time.time;
-            GameObject.Instantiate(throwingPrefab, transform.position, Quaternion.identity);
+            
+            Vector3 throwDirection = mAvatarMovement.lastVelocity.normalized;
+            
+            GameObject thrownObject = (GameObject) GameObject.Instantiate(throwingPrefab, transform.position + throwDirection * throwOffset, Quaternion.identity);
+
+            Debug.Log(throwDirection);
+
+            thrownObject.GetComponent<thrownObject>().Initialize(throwDirection * throwingSpeed);
         }
 	}
 }

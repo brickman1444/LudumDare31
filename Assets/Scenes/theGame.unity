@@ -363,6 +363,10 @@ Prefab:
       propertyPath: speed
       value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5d13ecdc81954b643abb0840f84fd33c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d13ecdc81954b643abb0840f84fd33c, type: 2}
   m_RootGameObject: {fileID: 2075501776}
@@ -477,7 +481,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   throwingPrefab: {fileID: 100000, guid: 091f1ffb90427d943bfe9dfd8258bd7d, type: 2}
-  secondsBetweenThrows: 1
+  secondsBetweenThrows: .100000001
+  throwingSpeed: 100
+  throwOffset: .100000001
 --- !u!1 &501235125
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,6 +623,10 @@ Prefab:
       propertyPath: speed
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3db017528e8286847b9e87ba8e30ef7b, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3db017528e8286847b9e87ba8e30ef7b, type: 2}
   m_RootGameObject: {fileID: 1002045829}
@@ -684,7 +694,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!58 &686942578
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -976,7 +986,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1002045830
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1307,6 +1317,10 @@ Prefab:
     - target: {fileID: 11400000, guid: dccfc55889931a443b5ee989cb0a3581, type: 2}
       propertyPath: speed
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dccfc55889931a443b5ee989cb0a3581, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dccfc55889931a443b5ee989cb0a3581, type: 2}
@@ -1738,7 +1752,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!58 &2075501777
 CircleCollider2D:
   m_ObjectHideFlags: 0
