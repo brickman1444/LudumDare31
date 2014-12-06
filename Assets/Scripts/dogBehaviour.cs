@@ -11,13 +11,15 @@ public class dogBehaviour : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 
         Vector3 toAvatar = avatarMovement.shittyInstance.transform.position - transform.position;
         toAvatar.Normalize();
 
-        Vector3 velocity = toAvatar * speed * Time.deltaTime;
+        Vector3 velocity = toAvatar * speed * Time.fixedDeltaTime;
 
         rigidbody2D.velocity = velocity;
+
+        Debug.Log(velocity.sqrMagnitude);
 	}
 }
