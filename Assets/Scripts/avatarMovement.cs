@@ -8,8 +8,6 @@ public class avatarMovement : MonoBehaviour {
 
     public static avatarMovement shittyInstance = null;
 
-    public Vector3 lastVelocity { get; private set; }
-
     void Awake()
     {
         shittyInstance = this;
@@ -45,11 +43,6 @@ public class avatarMovement : MonoBehaviour {
         if (rigidbody2D.velocity.sqrMagnitude > maxSpeed * maxSpeed)
         {
             rigidbody2D.velocity = rigidbody2D.velocity.normalized * maxSpeed;
-        }
-
-        if (rigidbody2D.velocity != Vector2.zero)
-        {
-            lastVelocity = rigidbody2D.velocity;
         }
 	}
 }

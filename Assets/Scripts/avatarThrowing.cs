@@ -11,11 +11,10 @@ public class avatarThrowing : MonoBehaviour {
     public bool requireSpace;
 
     private float lastThrowTime = 0;
-    private avatarMovement mAvatarMovement;
 
 	// Use this for initialization
 	void Start () {
-        mAvatarMovement = gameObject.GetComponent<avatarMovement>();
+
 	}
 	
 	// Update is called once per frame
@@ -25,17 +24,15 @@ public class avatarThrowing : MonoBehaviour {
         {
             Debug.Log("Fire");
             lastThrowTime = Time.time;
-            
-            Vector3 throwDirection = mAvatarMovement.lastVelocity.normalized;
 
-            if (throwDirection == Vector3.zero)
+            Vector3 throwDirection = rigidbody2D.velocity.normalized;
+
+            if (throwDirection != Vector3.zero)
             {
-                throwDirection = Vector3.right;
-            }
-            
-            GameObject thrownObject = (GameObject) GameObject.Instantiate(throwingPrefab, transform.position + throwDirection * throwOffset, Quaternion.identity);
+                GameObject thrownObject = (GameObject)GameObject.Instantiate(throwingPrefab, transform.position + throwDirection * throwOffset, Quaternion.identity);
 
-            thrownObject.GetComponent<thrownObject>().Initialize(throwDirection * throwingSpeed, throwingAngularSpeed);
+                thrownObject.GetComponent<thrownObject>().Initialize(throwDirection * throwingSpeed, throwingAngularSpeed);
+            }
         }
 	}
 }
