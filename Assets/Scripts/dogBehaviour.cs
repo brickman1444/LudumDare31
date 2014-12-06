@@ -19,7 +19,5 @@ public class dogBehaviour : MonoBehaviour {
         Vector3 velocity = toAvatar * speed * Time.fixedDeltaTime;
 
         rigidbody2D.velocity = velocity;
-
-        Debug.Log(velocity.sqrMagnitude);
 	}
 }
