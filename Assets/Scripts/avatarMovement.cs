@@ -6,6 +6,13 @@ public class avatarMovement : MonoBehaviour {
     public float acceleration;
     public float maxSpeed;
 
+    public static avatarMovement shittyInstance = null;
+
+    void Awake()
+    {
+        shittyInstance = this;
+    }
+
 	// Use this for initialization
 	void Start () {
 	
