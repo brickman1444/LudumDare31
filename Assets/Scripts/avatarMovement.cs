@@ -19,7 +19,7 @@ public class avatarMovement : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 
         if (rigidbody2D.velocity.x * Input.GetAxis("AD") < 0)
         {
@@ -38,7 +38,7 @@ public class avatarMovement : MonoBehaviour {
 
         direction.Normalize();
 
-        rigidbody2D.AddForce(direction * Time.deltaTime * acceleration);
+        rigidbody2D.AddForce(direction * Time.fixedDeltaTime * acceleration);
 
         if (rigidbody2D.velocity.sqrMagnitude > maxSpeed * maxSpeed)
         {
