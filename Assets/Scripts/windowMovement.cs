@@ -20,8 +20,8 @@ public class windowMovement : MonoBehaviour {
 	void Update () {
         Vector3 velocity = new Vector3();
 
-        velocity += Vector3.right * Time.deltaTime * speed * Input.GetAxis("Horizontal");
-        velocity += Vector3.up * Time.deltaTime * speed * Input.GetAxis("Vertical");
+        velocity += Vector3.right * Time.deltaTime * speed * Input.GetAxis("RightLeft");
+        velocity += Vector3.up * Time.deltaTime * speed * Input.GetAxis("UpDown");
 
         Vector3 newPos = transform.position + velocity;
 
