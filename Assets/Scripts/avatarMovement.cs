@@ -3,7 +3,8 @@ using System.Collections;
 
 public class avatarMovement : MonoBehaviour {
 
-    public float speed;
+    public float acceleration;
+    public float maxSpeed;
 
 	// Use this for initialization
 	void Start () {
@@ -12,11 +13,13 @@ public class avatarMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Vector3 velocity = new Vector3();
 
-        velocity += Vector3.right * Time.deltaTime * speed * Input.GetAxis("AD");
-        velocity += Vector3.up * Time.deltaTime * speed * Input.GetAxis("WS");
+        rigidbody2D.AddForce(Vector3.right * Time.deltaTime * acceleration * Input.GetAxis("AD"));
+        rigidbody2D.AddForce(Vector3.up * Time.deltaTime * acceleration * Input.GetAxis("WS"));
 
-        transform.position += velocity;
+        if (rigidbody2D.velocity.sqrMagnitude > maxSpeed * maxSpeed)
+        {
+            rigidbody2D.velocity = rigidbody.velocity.normalized * maxSpeed;
+        }
 	}
 }
