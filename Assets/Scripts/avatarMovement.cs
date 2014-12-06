@@ -14,12 +14,28 @@ public class avatarMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        rigidbody2D.AddForce(Vector3.right * Time.deltaTime * acceleration * Input.GetAxis("AD"));
-        rigidbody2D.AddForce(Vector3.up * Time.deltaTime * acceleration * Input.GetAxis("WS"));
+        if (rigidbody2D.velocity.x * Input.GetAxis("AD") < 0)
+        {
+            rigidbody2D.velocity = new Vector3(0,rigidbody2D.velocity.y,0);
+        }
+
+        if (rigidbody2D.velocity.y * Input.GetAxis("WS") < 0)
+        {
+            rigidbody2D.velocity = new Vector3(rigidbody2D.velocity.x, 0, 0);
+        }
+
+        Vector3 direction = new Vector3();
+
+        direction += Vector3.right * Input.GetAxis("AD");
+        direction += Vector3.up * Input.GetAxis("WS");
+
+        direction.Normalize();
+
+        rigidbody2D.AddForce(direction * Time.deltaTime * acceleration);
 
         if (rigidbody2D.velocity.sqrMagnitude > maxSpeed * maxSpeed)
         {
-            rigidbody2D.velocity = rigidbody.velocity.normalized * maxSpeed;
+            rigidbody2D.velocity = rigidbody2D.velocity.normalized * maxSpeed;
         }
 	}
 }
