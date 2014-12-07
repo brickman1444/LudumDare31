@@ -18,14 +18,15 @@ public class dogSpawner : MonoBehaviour {
     {
         while (true)
         {
-            /*Vector3 diffToWindow = window.transform.position - transform.position;
+            Vector3 diffToWindow = window.transform.position - transform.position;
 
             // Check if outside the window
             if (diffToWindow.sqrMagnitude < minDistanceToWindow * minDistanceToWindow)
             {
+                Debug.Log(diffToWindow.sqrMagnitude);
                 yield return new WaitForSeconds(offscreenCheckTime);
                 continue;
-            }*/
+            }
 
             int index = Random.Range(0, dogPrefabs.Length);
 
