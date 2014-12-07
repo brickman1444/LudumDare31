@@ -12,6 +12,7 @@ GameObject:
   - 212: {fileID: 21200000}
   - 50: {fileID: 5000000}
   - 58: {fileID: 5800000}
+  - 95: {fileID: 9500000}
   m_Layer: 0
   m_Name: Medium Dog
   m_TagString: Dog
@@ -57,6 +58,21 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_Radius: .230000004
   m_Center: {x: 0, y: 0}
+--- !u!95 &9500000
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: aad65044ee572304ab5df60e6d2cdfdd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -71,6 +87,10 @@ MonoBehaviour:
   speed: 30
   biteTime: 1
   bitePushBack: 10
+  animationKey: MEDIUM_Dog
+  deathAnimation: {fileID: 7400000, guid: b3084ef5119b95b4297cacb412e3f36c, type: 2}
+  maxHealth: 2
+  hitStayTime: 2
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

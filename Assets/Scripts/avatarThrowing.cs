@@ -56,7 +56,7 @@ public class avatarThrowing : MonoBehaviour {
             if (throwDirection != Vector3.zero)
             {
                 GameObject thrownObject = (GameObject)GameObject.Instantiate(currentThrowingObject.prefab, transform.position + throwDirection * throwOffset, Quaternion.identity);
-                thrownObject.GetComponent<thrownObject>().Initialize(throwDirection * throwingSpeed, throwingAngularSpeed);
+                thrownObject.GetComponent<thrownObject>().Initialize(throwDirection * throwingSpeed, throwingAngularSpeed, currentThrowingObject.mailValue);
             }
 
             lastThrowDirection = throwDirection;

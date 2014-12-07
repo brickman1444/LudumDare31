@@ -11,7 +11,7 @@ AnimatorController:
   - m_Name: LITTLE_Dog
     m_Type: 3
     m_DefaultFloat: 0
-    m_DefaultInt: 6
+    m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
@@ -537,7 +537,7 @@ State:
   m_Motions:
   - {fileID: 7400000, guid: 3143ab42ce4c5724aad4bfff9e066441, type: 2}
   m_ParentStateMachine: {fileID: 110700000}
-  m_Position: {x: 408, y: 228, z: 0}
+  m_Position: {x: 360, y: 324, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -710,38 +710,9 @@ StateMachine:
       - {fileID: 110197164}
       - {fileID: 110100000}
     data:
-      first: {fileID: 110278515}
-      second:
-      - {fileID: 110109468}
-      - {fileID: 110145609}
-      - {fileID: 110165950}
-      - {fileID: 110139577}
-    data:
       first: {fileID: 110219512}
       second:
       - {fileID: 110126146}
-    data:
-      first: {fileID: 110268654}
-      second:
-      - {fileID: 110197770}
-    data:
-      first: {fileID: 110268361}
-      second:
-      - {fileID: 110128176}
-    data:
-      first: {fileID: 110245711}
-      second:
-      - {fileID: 110164920}
-      - {fileID: 110100316}
-      - {fileID: 110180313}
-      - {fileID: 110155280}
-    data:
-      first: {fileID: 110242010}
-      second:
-      - {fileID: 110172352}
-      - {fileID: 110174881}
-      - {fileID: 110140081}
-      - {fileID: 110110147}
     data:
       first: {fileID: 110235156}
       second:
@@ -750,9 +721,38 @@ StateMachine:
       - {fileID: 110141570}
       - {fileID: 110144155}
     data:
+      first: {fileID: 110242010}
+      second:
+      - {fileID: 110172352}
+      - {fileID: 110174881}
+      - {fileID: 110140081}
+      - {fileID: 110110147}
+    data:
       first: {fileID: 110243595}
       second:
       - {fileID: 110119531}
+    data:
+      first: {fileID: 110245711}
+      second:
+      - {fileID: 110164920}
+      - {fileID: 110100316}
+      - {fileID: 110180313}
+      - {fileID: 110155280}
+    data:
+      first: {fileID: 110268361}
+      second:
+      - {fileID: 110128176}
+    data:
+      first: {fileID: 110268654}
+      second:
+      - {fileID: 110197770}
+    data:
+      first: {fileID: 110278515}
+      second:
+      - {fileID: 110109468}
+      - {fileID: 110145609}
+      - {fileID: 110165950}
+      - {fileID: 110139577}
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: 444, y: -60, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
