@@ -38,11 +38,17 @@ public class Lives : MonoBehaviour {
 		}
 	}
 	public void LoseLives()
-	{
+	{   //Debug.Log("Ran the loselives");
 		int childs = transform.childCount;
+
 		if (childs >1 )
 		{
 			GameObject.Destroy(transform.GetChild(childs-1).gameObject);
+		}
+		else if (LIVES == 0)
+		{
+			//Debug.Log("Ran the scene change");
+			Application.LoadLevel("theGame2");  //make this whatever you want
 		}
 	}	
 }

@@ -37,6 +37,9 @@ public class dogBehaviour : MonoBehaviour {
             case "Player":
                 Bite();
 				Lives.LIVES -=1; //subtracts lives
+			avatarMovement die =	go.GetComponent<avatarMovement>();
+			die.ReSpawn();
+
                 break;
         }
     }
