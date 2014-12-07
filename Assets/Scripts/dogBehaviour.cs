@@ -59,6 +59,8 @@ public class dogBehaviour : MonoBehaviour {
     void Die()
     {
         //Debug.Log("Die " + gameObject.name);
+		GameObject dog = (GameObject)this.gameObject;
+		dogSpawner.kennel.Remove(dog);
         Destroy(gameObject);
     }
 
