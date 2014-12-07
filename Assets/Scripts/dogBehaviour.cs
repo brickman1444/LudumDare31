@@ -20,4 +20,22 @@ public class dogBehaviour : MonoBehaviour {
 
         rigidbody2D.velocity = velocity;
 	}
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        GameObject go = collision.gameObject;
+
+        switch (go.tag)
+        {
+            case "ThrownObject": 
+                Debug.Log("HitThing"); 
+                Die(); 
+                break;
+        }
+    }
+
+    void Die()
+    {
+        Destroy(gameObject);
+    }
 }

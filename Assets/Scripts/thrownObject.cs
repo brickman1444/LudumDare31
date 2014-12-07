@@ -30,7 +30,8 @@ public class thrownObject : MonoBehaviour {
         switch(go.tag)
         {
             case "House":
-            case "Wall": Destroy(gameObject); break;
+            case "Wall":
+            case "Dog": Destroy(gameObject); break;
         }
     }
 }

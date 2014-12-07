@@ -469,7 +469,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 5d13ecdc81954b643abb0840f84fd33c, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5d13ecdc81954b643abb0840f84fd33c, type: 2}
+      propertyPath: m_TagString
+      value: Dog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d13ecdc81954b643abb0840f84fd33c, type: 2}
@@ -765,6 +769,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3db017528e8286847b9e87ba8e30ef7b, type: 2}
+      propertyPath: m_TagString
+      value: Dog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3db017528e8286847b9e87ba8e30ef7b, type: 2}
   m_RootGameObject: {fileID: 1002045829}
@@ -894,7 +902,7 @@ GameObject:
   - 58: {fileID: 686942578}
   m_Layer: 0
   m_Name: Large Dog
-  m_TagString: Untagged
+  m_TagString: Dog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1434,7 +1442,7 @@ GameObject:
   - 58: {fileID: 1002045833}
   m_Layer: 0
   m_Name: Medium Dog
-  m_TagString: Untagged
+  m_TagString: Dog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1729,6 +1737,10 @@ Prefab:
     - target: {fileID: 100000, guid: dccfc55889931a443b5ee989cb0a3581, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dccfc55889931a443b5ee989cb0a3581, type: 2}
+      propertyPath: m_TagString
+      value: Dog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dccfc55889931a443b5ee989cb0a3581, type: 2}
@@ -2560,11 +2572,11 @@ GameObject:
   - 58: {fileID: 2075501777}
   m_Layer: 0
   m_Name: Small Dog
-  m_TagString: Untagged
+  m_TagString: Dog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!58 &2075501777
 CircleCollider2D:
   m_ObjectHideFlags: 0
