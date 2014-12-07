@@ -149,12 +149,16 @@ public class dogBehaviour : MonoBehaviour {
         currState = DogState.Die;
 
         dogAnimator.SetInteger(animationKey, 6);
-
+	GameObject dog = (GameObject)this.gameObject;
+	dogSpawner.kennel.Remove(dog);
         Invoke("KillGameObject", deathAnimation.length);
     }
 
     void KillGameObject()
     {
+
+
+
         Destroy(gameObject);
     }
 

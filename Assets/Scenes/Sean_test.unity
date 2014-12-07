@@ -334,6 +334,10 @@ Prefab:
       propertyPath: window
       value: 
       objectReference: {fileID: 205378096}
+    - target: {fileID: 11400000, guid: 7bc1a34c09a24fc44ab662ee22129668, type: 2}
+      propertyPath: maxDog
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7bc1a34c09a24fc44ab662ee22129668, type: 2}
   m_RootGameObject: {fileID: 1677143465}
@@ -1202,6 +1206,10 @@ Prefab:
       propertyPath: window
       value: 
       objectReference: {fileID: 205378096}
+    - target: {fileID: 11400000, guid: 7bc1a34c09a24fc44ab662ee22129668, type: 2}
+      propertyPath: maxDog
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7bc1a34c09a24fc44ab662ee22129668, type: 2}
   m_RootGameObject: {fileID: 664325455}
@@ -1889,6 +1897,7 @@ MonoBehaviour:
   timeBetweenDogs: 10
   offscreenCheckTime: .100000001
   minDistanceToWindow: 2.54999995
+  maxDog: 5
   window: {fileID: 205378096}
   timeBetweenLevels: 0
   doglevel: 0
@@ -2284,6 +2293,7 @@ MonoBehaviour:
   timeBetweenDogs: 10
   offscreenCheckTime: .100000001
   minDistanceToWindow: 2.54999995
+  maxDog: 0
   window: {fileID: 205378096}
   timeBetweenLevels: 0
   doglevel: 0
@@ -2948,6 +2958,7 @@ MonoBehaviour:
   timeBetweenDogs: 10
   offscreenCheckTime: .100000001
   minDistanceToWindow: 2.54999995
+  maxDog: 0
   window: {fileID: 205378096}
   timeBetweenLevels: 0
   doglevel: 0
@@ -3901,6 +3912,7 @@ MonoBehaviour:
   timeBetweenDogs: 10
   offscreenCheckTime: .100000001
   minDistanceToWindow: 2.54999995
+  maxDog: 0
   window: {fileID: 205378096}
   timeBetweenLevels: 0
   doglevel: 0
@@ -4037,6 +4049,7 @@ MonoBehaviour:
   timeBetweenDogs: 10
   offscreenCheckTime: .100000001
   minDistanceToWindow: 2.54999995
+  maxDog: 0
   window: {fileID: 205378096}
   timeBetweenLevels: 0
   doglevel: 0
@@ -5012,7 +5025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0b8cd498c266a649a9fdb4350aad4e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingLives: 1
+  startingLives: 3
   newLives: {fileID: 100000, guid: 87263d3485767d4408495c1b457fdb47, type: 2}
   spacingX: 0
   placement: {x: 0, y: 0, z: 0}
@@ -5220,6 +5233,7 @@ MonoBehaviour:
   timeBetweenDogs: 10
   offscreenCheckTime: .100000001
   minDistanceToWindow: 2.54999995
+  maxDog: 0
   window: {fileID: 205378096}
   timeBetweenLevels: 0
   doglevel: 0
@@ -5532,6 +5546,7 @@ MonoBehaviour:
   timeBetweenDogs: 10
   offscreenCheckTime: .100000001
   minDistanceToWindow: 2.54999995
+  maxDog: 5
   window: {fileID: 205378096}
   timeBetweenLevels: 0
   doglevel: 0
@@ -6813,6 +6828,7 @@ MonoBehaviour:
   timeBetweenDogs: 10
   offscreenCheckTime: .100000001
   minDistanceToWindow: 2.54999995
+  maxDog: 0
   window: {fileID: 205378096}
   timeBetweenLevels: 0
   doglevel: 0
