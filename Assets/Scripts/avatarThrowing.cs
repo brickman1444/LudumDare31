@@ -40,6 +40,8 @@ public class avatarThrowing : MonoBehaviour {
                 }
             }
 
+            throwDirection.Normalize();
+
             if (throwDirection != Vector3.zero)
             {
                 GameObject thrownObject = (GameObject)GameObject.Instantiate(throwingPrefab, transform.position + throwDirection * throwOffset, Quaternion.identity);

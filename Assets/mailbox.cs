@@ -63,9 +63,9 @@ public class mailbox : MonoBehaviour {
         isOpen = true;
     }
 
-    void IncreaseMailDelivered(uint mailDelivered)
+    void IncreaseMailDelivered(uint mailJustDelivered)
     {
-        mailDelivered += 1;
+        mailDelivered += mailJustDelivered;
         mailText.text = "Mail Delivered: " + mailDelivered;
     }
 }
