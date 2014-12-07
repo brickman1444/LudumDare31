@@ -50,6 +50,16 @@ public class avatarMovement : MonoBehaviour {
 	public void ReSpawn()
 	{
 		this.transform.position = new Vector3(0.01f,0.41f,0);
+		foreach (GameObject dog in dogSpawner.kennel)
+		{
+			Destroy (dog);
+
+			//GameObject dog = (GameObject)dogSpawner.kennel[i];
+			//dogSpawner.kennel.Remove(dog);
+			//Destroy (dog);
+		
+		}
+
 	}
 	
 }

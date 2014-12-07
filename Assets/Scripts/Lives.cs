@@ -22,7 +22,6 @@ public class Lives : MonoBehaviour {
 		if (LIVES != lives.Count)
 		{
 			LoseLives();
-			LIVES = lives.Count;
 		}
 	}
 
