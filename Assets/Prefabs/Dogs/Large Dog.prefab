@@ -89,6 +89,8 @@ MonoBehaviour:
   bitePushBack: 10
   animationKey: LARGE_Dog
   deathAnimation: {fileID: 7400000, guid: 577cce585d91d6a4abd673499556bdf0, type: 2}
+  maxHealth: 1
+  hitStayTime: 2
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

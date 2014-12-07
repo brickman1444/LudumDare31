@@ -6,16 +6,18 @@ public class thrownObject : MonoBehaviour {
     Vector3 velocity;
     float angularVelocity;
     float threshold = 0.001f;
+    public int mailValue;
 
 	// Use this for initialization
 	void Start () {
         rigidbody2D.rotation = Random.Range(0,360);
 	}
 
-    public void Initialize(Vector3 _velocity, float _angularVelocity)
+    public void Initialize(Vector3 _velocity, float _angularVelocity, int _mailValue)
     {
         velocity = _velocity;
         angularVelocity = _angularVelocity;
+        mailValue = _mailValue;
 
         if (velocity.sqrMagnitude < threshold)
         {

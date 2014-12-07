@@ -2044,6 +2044,8 @@ MonoBehaviour:
   bitePushBack: 10
   animationKey: LARGE_Dog
   deathAnimation: {fileID: 7400000, guid: 577cce585d91d6a4abd673499556bdf0, type: 2}
+  maxHealth: 1
+  hitStayTime: 2
 --- !u!4 &686942582
 Transform:
   m_ObjectHideFlags: 0
@@ -3364,6 +3366,8 @@ MonoBehaviour:
   bitePushBack: 10
   animationKey: MEDIUM_Dog
   deathAnimation: {fileID: 7400000, guid: b3084ef5119b95b4297cacb412e3f36c, type: 2}
+  maxHealth: 2
+  hitStayTime: 2
 --- !u!4 &1002045832
 Transform:
   m_ObjectHideFlags: 0
@@ -6775,6 +6779,8 @@ MonoBehaviour:
   bitePushBack: 10
   animationKey: LITTLE_Dog
   deathAnimation: {fileID: 7400000, guid: c9f0806bae0077443b5c8a0a2b362848, type: 2}
+  maxHealth: 3
+  hitStayTime: 2
 --- !u!4 &2075501781
 Transform:
   m_ObjectHideFlags: 0

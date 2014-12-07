@@ -8,17 +8,21 @@ public class dogBehaviour : MonoBehaviour {
     public float bitePushBack;
     public string animationKey;
     public AnimationClip deathAnimation;
+    public int maxHealth;
+    public float hitStayTime;
 
     private float functionalSpeed;
     private Animator dogAnimator;
     private int lastAnimationSignal = -1;
+    private int currHealth;
 
     private DogState currState;
 
     enum DogState
     {
         Chase,
-        Die
+        Die,
+        Hit,
     }
 
 	// Use this for initialization
@@ -27,6 +31,7 @@ public class dogBehaviour : MonoBehaviour {
         dogAnimator = GetComponent<Animator>();
         dogAnimator.SetInteger(animationKey, 0);
         currState = DogState.Chase;
+        currHealth = maxHealth;
 	}
 
     // Update is called once per frame
@@ -77,6 +82,8 @@ public class dogBehaviour : MonoBehaviour {
             case DogState.Die: // Do nothing while animation plays
                 rigidbody2D.velocity = Vector2.zero;
                 break;
+            case DogState.Hit:
+                break;
         }
     }
 
@@ -86,13 +93,13 @@ public class dogBehaviour : MonoBehaviour {
 
         switch (go.tag)
         {
-            case "ThrownObject":
-                Die();
-                break;
             case "Player":
-                Bite();
-                avatarMovement die = go.GetComponent<avatarMovement>();
-                die.ReSpawn();
+                if (currState != DogState.Hit && currState != DogState.Die)
+                {
+                    Bite();
+                    avatarMovement die = go.GetComponent<avatarMovement>();
+                    die.ReSpawn();
+                }
                 break;
         }
     }
@@ -104,9 +111,36 @@ public class dogBehaviour : MonoBehaviour {
         switch (go.tag)
         {
             case "ThrownObject":
-                Die();
+                if (currState != DogState.Hit && currState != DogState.Die)
+                {
+                    thrownObject to = go.GetComponent<thrownObject>();
+                    GetHit(to.mailValue);
+                }
                 break;
         }
+    }
+
+    void GetHit(int mailValue)
+    {
+        currHealth -= mailValue;
+
+        Debug.Log(gameObject.name + " hit to: " + currHealth);
+
+        if (currHealth <= 0)
+        {
+            Die();
+        }
+        else
+        {
+            currState = DogState.Hit;
+            dogAnimator.SetInteger(animationKey, 0); // Set to idle
+            Invoke("ReturnToChase", hitStayTime);
+        }
+    }
+
+    void ReturnToChase()
+    {
+        currState = DogState.Chase;
     }
 
     void Die()

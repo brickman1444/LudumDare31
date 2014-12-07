@@ -89,6 +89,8 @@ MonoBehaviour:
   bitePushBack: 10
   animationKey: LITTLE_Dog
   deathAnimation: {fileID: 7400000, guid: c9f0806bae0077443b5c8a0a2b362848, type: 2}
+  maxHealth: 3
+  hitStayTime: 2
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

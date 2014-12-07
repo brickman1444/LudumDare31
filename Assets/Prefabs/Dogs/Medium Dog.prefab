@@ -89,6 +89,8 @@ MonoBehaviour:
   bitePushBack: 10
   animationKey: MEDIUM_Dog
   deathAnimation: {fileID: 7400000, guid: b3084ef5119b95b4297cacb412e3f36c, type: 2}
+  maxHealth: 2
+  hitStayTime: 2
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
