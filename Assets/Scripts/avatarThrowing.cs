@@ -18,6 +18,7 @@ public class avatarThrowing : MonoBehaviour {
     public static avatarThrowing shittyInstance = null;
 
     public thrownObjectData currentThrowingObject;
+    public AudioSource[] throwSources;
 
     void Awake()
     {
@@ -57,6 +58,10 @@ public class avatarThrowing : MonoBehaviour {
             {
                 GameObject thrownObject = (GameObject)GameObject.Instantiate(currentThrowingObject.prefab, transform.position + throwDirection * throwOffset, Quaternion.identity);
                 thrownObject.GetComponent<thrownObject>().Initialize(throwDirection * throwingSpeed, throwingAngularSpeed, currentThrowingObject.mailValue);
+
+                int soundIndex = Random.Range(0, throwSources.Length);
+
+                throwSources[soundIndex].Play();
             }
 
             lastThrowDirection = throwDirection;
