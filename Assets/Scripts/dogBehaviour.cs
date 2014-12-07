@@ -86,11 +86,13 @@ public class dogBehaviour : MonoBehaviour {
 
         switch (go.tag)
         {
-            case "ThrownObject": 
-                Die(); 
+            case "ThrownObject":
+                Die();
                 break;
             case "Player":
                 Bite();
+                avatarMovement die = go.GetComponent<avatarMovement>();
+                die.ReSpawn();
                 break;
         }
     }
@@ -130,7 +132,7 @@ public class dogBehaviour : MonoBehaviour {
 
             dogAnimator.SetInteger(animationKey, 5);
 
-            Lives.LIVES -= 1; //subtracts lives
+            Lives.LIVES--; //subtracts lives
 
             Vector3 avatarPos = avatarMovement.shittyInstance.transform.position;
             Vector3 dirAwayFromAvatar = transform.position - avatarPos;

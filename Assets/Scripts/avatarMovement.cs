@@ -5,14 +5,12 @@ public class avatarMovement : MonoBehaviour {
 
     public float acceleration;
     public float maxSpeed;
-
     public static avatarMovement shittyInstance = null;
 
     void Awake()
     {
         shittyInstance = this;
     }
-
 	// Use this for initialization
 	void Start () {
 	
@@ -20,6 +18,10 @@ public class avatarMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+		if (Input.GetKeyUp(KeyCode.R))
+		    {
+			ReSpawn();
+		}
 
         if (rigidbody2D.velocity.x * Input.GetAxis("AD") < 0)
         {
@@ -45,4 +47,9 @@ public class avatarMovement : MonoBehaviour {
             rigidbody2D.velocity = rigidbody2D.velocity.normalized * maxSpeed;
         }
 	}
+	public void ReSpawn()
+	{
+		this.transform.position = new Vector3(0.01f,0.41f,0);
+	}
+	
 }

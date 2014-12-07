@@ -5012,7 +5012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0b8cd498c266a649a9fdb4350aad4e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingLives: 3
+  startingLives: 1
   newLives: {fileID: 100000, guid: 87263d3485767d4408495c1b457fdb47, type: 2}
   spacingX: 0
   placement: {x: 0, y: 0, z: 0}
