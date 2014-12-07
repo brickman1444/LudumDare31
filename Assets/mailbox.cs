@@ -5,6 +5,7 @@ public class mailbox : MonoBehaviour {
 
     public Sprite openSprite;
     public Sprite closedSprite;
+    public float closeTime;
 
     SpriteRenderer spriteRenderer;
 
@@ -38,11 +39,15 @@ public class mailbox : MonoBehaviour {
     {
         spriteRenderer.sprite = closedSprite;
         isOpen = false;
+        Invoke("Open", closeTime);
     }
 
     void FillMailbox()
     {
-        Close();
+        if (isOpen)
+        {
+            Close();
+        }
     }
 
     void Open()
