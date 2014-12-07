@@ -8,6 +8,8 @@ public class avatarMovement : MonoBehaviour {
     public static avatarMovement shittyInstance = null;
     public GameObject window;
 
+    public AudioSource willhelm;
+
     void Awake()
     {
         shittyInstance = this;
@@ -58,6 +60,8 @@ public class avatarMovement : MonoBehaviour {
 
         dogSpawner.kennel.Clear();
 
+        willhelm.Play();
+        
         window.transform.position = new Vector3(transform.position.x, transform.position.y, window.transform.position.z);
 	}
 	
