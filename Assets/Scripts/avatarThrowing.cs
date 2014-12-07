@@ -11,10 +11,11 @@ public class avatarThrowing : MonoBehaviour {
     public bool requireSpace;
 
     private float lastThrowTime = 0;
+    private Vector3 lastThrowDirection = Vector3.zero;
 
 	// Use this for initialization
 	void Start () {
-
+        
 	}
 	
 	// Update is called once per frame
@@ -27,12 +28,21 @@ public class avatarThrowing : MonoBehaviour {
 
             Vector3 throwDirection = rigidbody2D.velocity.normalized;
 
+            if (throwDirection == Vector3.zero)
+            {
+                if (lastThrowDirection != Vector3.zero)
+                {
+                    throwDirection = lastThrowDirection;
+                }
+            }
+
             if (throwDirection != Vector3.zero)
             {
                 GameObject thrownObject = (GameObject)GameObject.Instantiate(throwingPrefab, transform.position + throwDirection * throwOffset, Quaternion.identity);
-
                 thrownObject.GetComponent<thrownObject>().Initialize(throwDirection * throwingSpeed, throwingAngularSpeed);
             }
+
+            lastThrowDirection = throwDirection;
         }
 	}
 }

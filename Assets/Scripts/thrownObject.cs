@@ -22,4 +22,15 @@ public class thrownObject : MonoBehaviour {
         rigidbody2D.velocity = velocity * Time.fixedDeltaTime;
         rigidbody2D.angularVelocity = angularVelocity * Time.fixedDeltaTime;
 	}
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        GameObject go = collision.gameObject;
+
+        switch(go.tag)
+        {
+            case "House":
+            case "Wall": Destroy(gameObject); break;
+        }
+    }
 }
