@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
   - 61: {fileID: 6100000}
+  - 114: {fileID: 11400000}
   m_Layer: 0
   m_Name: Mailbox
   m_TagString: House
@@ -40,6 +41,19 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: .370000005, y: .379999995}
   m_Center: {x: 0, y: -.0199999996}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af999642397eea408328a083d865521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openSprite: {fileID: 21300000, guid: 09f721da0e228d143a4c5c08e0010f48, type: 3}
+  closedSprite: {fileID: 21300002, guid: 09f721da0e228d143a4c5c08e0010f48, type: 3}
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
