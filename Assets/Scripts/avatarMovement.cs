@@ -53,12 +53,9 @@ public class avatarMovement : MonoBehaviour {
 		foreach (GameObject dog in dogSpawner.kennel)
 		{
 			Destroy (dog);
-
-			//GameObject dog = (GameObject)dogSpawner.kennel[i];
-			//dogSpawner.kennel.Remove(dog);
-			//Destroy (dog);
-		
 		}
+
+        dogSpawner.kennel.Clear();
 
 	}
 	
