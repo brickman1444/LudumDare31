@@ -30,7 +30,9 @@ public class dogSpawner : MonoBehaviour {
             // Check if outside the window
             if (diffToWindow.sqrMagnitude < minDistanceToWindow * minDistanceToWindow)
             {
+
                // Debug.Log(diffToWindow.sqrMagnitude);
+
                 yield return new WaitForSeconds(offscreenCheckTime);
                 continue;
             }

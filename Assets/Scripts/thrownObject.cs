@@ -5,6 +5,7 @@ public class thrownObject : MonoBehaviour {
 
     Vector3 velocity;
     float angularVelocity;
+    float threshold = 0.001f;
 
 	// Use this for initialization
 	void Start () {
@@ -15,6 +16,11 @@ public class thrownObject : MonoBehaviour {
     {
         velocity = _velocity;
         angularVelocity = _angularVelocity;
+
+        if (velocity.sqrMagnitude < threshold)
+        {
+            Destroy(gameObject);
+        }
     }
 
 	// Update is called once per frame
