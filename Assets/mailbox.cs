@@ -1,19 +1,25 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class mailbox : MonoBehaviour {
 
     public Sprite openSprite;
     public Sprite closedSprite;
     public float closeTime;
+    public GameObject textObject;
 
+    Text mailText;
     SpriteRenderer spriteRenderer;
+
+    static uint mailDelivered = 0;
 
     bool isOpen;
 
 	// Use this for initialization
 	void Start () {
         spriteRenderer = (SpriteRenderer)renderer;
+        mailText = textObject.GetComponent<Text>();
 
         Open();
 	}
@@ -46,6 +52,7 @@ public class mailbox : MonoBehaviour {
     {
         if (isOpen)
         {
+            IncreaseMailDelivered(1);
             Close();
         }
     }
@@ -54,5 +61,11 @@ public class mailbox : MonoBehaviour {
     {
         spriteRenderer.sprite = openSprite;
         isOpen = true;
+    }
+
+    void IncreaseMailDelivered(uint mailDelivered)
+    {
+        mailDelivered += 1;
+        mailText.text = "Mail Delivered: " + mailDelivered;
     }
 }
