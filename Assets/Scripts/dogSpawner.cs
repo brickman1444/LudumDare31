@@ -46,14 +46,14 @@ public class dogSpawner : MonoBehaviour {
     }
 	IEnumerator DogTimeRoutine()  // coroutine
 	{
-		Debug.Log("running Dog Routine");
+		//Debug.Log("running Dog Routine");
 		while (true)
 		{
 			if (doglevel !=0)
 			{
 				doglevel-=1;
 			}
-			Debug.Log("finished routine"+Time.time);
+			//Debug.Log("finished routine"+Time.time);
 			yield return new WaitForSeconds(10);
 		}
 	}

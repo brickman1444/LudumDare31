@@ -36,6 +36,7 @@ public class dogBehaviour : MonoBehaviour {
                 break;
             case "Player":
                 Bite();
+				Lives.LIVES -=1; //subtracts lives
                 break;
         }
     }
