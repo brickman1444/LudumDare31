@@ -6,6 +6,7 @@ public class avatarMovement : MonoBehaviour {
     public float acceleration;
     public float maxSpeed;
     public static avatarMovement shittyInstance = null;
+    public GameObject window;
 
     void Awake()
     {
@@ -57,6 +58,7 @@ public class avatarMovement : MonoBehaviour {
 
         dogSpawner.kennel.Clear();
 
+        window.transform.position = new Vector3(transform.position.x, transform.position.y, window.transform.position.z);
 	}
 	
 }
