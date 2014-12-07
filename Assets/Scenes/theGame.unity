@@ -469,7 +469,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 5d13ecdc81954b643abb0840f84fd33c, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5d13ecdc81954b643abb0840f84fd33c, type: 2}
+      propertyPath: m_TagString
+      value: Dog
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5d13ecdc81954b643abb0840f84fd33c, type: 2}
+      propertyPath: biteTime
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d13ecdc81954b643abb0840f84fd33c, type: 2}
@@ -491,7 +499,7 @@ GameObject:
   - 114: {fileID: 359108031}
   m_Layer: 0
   m_Name: Avatar
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -585,9 +593,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   throwingPrefab: {fileID: 100000, guid: 091f1ffb90427d943bfe9dfd8258bd7d, type: 2}
-  secondsBetweenThrows: .100000001
-  throwingSpeed: 100
-  throwingAngularSpeed: 100000
+  secondsBetweenThrows: .200000003
+  throwingSpeed: 30
+  throwingAngularSpeed: 1000
   throwOffset: .100000001
   requireSpace: 0
 --- !u!1 &461161621
@@ -763,7 +771,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 3db017528e8286847b9e87ba8e30ef7b, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3db017528e8286847b9e87ba8e30ef7b, type: 2}
+      propertyPath: m_TagString
+      value: Dog
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 3db017528e8286847b9e87ba8e30ef7b, type: 2}
+      propertyPath: biteTime
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3db017528e8286847b9e87ba8e30ef7b, type: 2}
@@ -894,11 +910,11 @@ GameObject:
   - 58: {fileID: 686942578}
   m_Layer: 0
   m_Name: Large Dog
-  m_TagString: Untagged
+  m_TagString: Dog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!58 &686942578
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -963,6 +979,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+  biteTime: 1
+  bitePushBack: 0
 --- !u!4 &686942582
 Transform:
   m_ObjectHideFlags: 0
@@ -1351,6 +1369,10 @@ Prefab:
       propertyPath: m_Size.y
       value: .319999993
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d0f4d24385f27f0459047846b2c2148b, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d0f4d24385f27f0459047846b2c2148b, type: 2}
   m_RootGameObject: {fileID: 359108025}
@@ -1434,11 +1456,11 @@ GameObject:
   - 58: {fileID: 1002045833}
   m_Layer: 0
   m_Name: Medium Dog
-  m_TagString: Untagged
+  m_TagString: Dog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1002045830
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1475,6 +1497,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
+  biteTime: 1
+  bitePushBack: 0
 --- !u!4 &1002045832
 Transform:
   m_ObjectHideFlags: 0
@@ -1728,6 +1752,18 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: dccfc55889931a443b5ee989cb0a3581, type: 2}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dccfc55889931a443b5ee989cb0a3581, type: 2}
+      propertyPath: m_TagString
+      value: Dog
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: dccfc55889931a443b5ee989cb0a3581, type: 2}
+      propertyPath: biteTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800000, guid: dccfc55889931a443b5ee989cb0a3581, type: 2}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2560,11 +2596,11 @@ GameObject:
   - 58: {fileID: 2075501777}
   m_Layer: 0
   m_Name: Small Dog
-  m_TagString: Untagged
+  m_TagString: Dog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!58 &2075501777
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2629,6 +2665,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 40
+  biteTime: 1
+  bitePushBack: 0
 --- !u!4 &2075501781
 Transform:
   m_ObjectHideFlags: 0

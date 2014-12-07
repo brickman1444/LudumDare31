@@ -23,7 +23,7 @@ public class avatarThrowing : MonoBehaviour {
 
         if (Time.time - lastThrowTime > secondsBetweenThrows && (!requireSpace || Input.GetAxis("Fire1") > 0.5f) )
         {
-            Debug.Log("Fire");
+            //Debug.Log("Fire");
             lastThrowTime = Time.time;
 
             Vector3 throwDirection = rigidbody2D.velocity.normalized;
