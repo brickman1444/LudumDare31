@@ -54,13 +54,13 @@ public class dogBehaviour : MonoBehaviour {
 
     void Die()
     {
-        Debug.Log("Die " + gameObject.name);
+        //Debug.Log("Die " + gameObject.name);
         Destroy(gameObject);
     }
 
     void Bite()
     {
-        Debug.Log("Bite " + gameObject.name);
+        //Debug.Log("Bite " + gameObject.name);
         Vector3 avatarPos = avatarMovement.shittyInstance.transform.position;
         Vector3 dirAwayFromAvatar = transform.position - avatarPos;
 
