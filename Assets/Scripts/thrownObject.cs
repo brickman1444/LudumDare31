@@ -8,7 +8,7 @@ public class thrownObject : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	    
+        rigidbody2D.rotation = Random.Range(0,360);
 	}
 
     public void Initialize(Vector3 _velocity, float _angularVelocity)
@@ -23,9 +23,9 @@ public class thrownObject : MonoBehaviour {
         rigidbody2D.angularVelocity = angularVelocity * Time.fixedDeltaTime;
 	}
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D collider)
     {
-        GameObject go = collision.gameObject;
+        GameObject go = collider.gameObject;
 
         switch(go.tag)
         {
