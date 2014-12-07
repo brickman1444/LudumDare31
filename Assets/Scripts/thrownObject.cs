@@ -31,7 +31,12 @@ public class thrownObject : MonoBehaviour {
         {
             case "House":
             case "Wall":
-            case "Dog": Destroy(gameObject); break;
+            case "Dog": Invoke("Die", 0.17f); break;
         }
+    }
+
+    void Die()
+    {
+        Destroy(gameObject);
     }
 }
