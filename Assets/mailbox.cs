@@ -1,19 +1,28 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class mailbox : MonoBehaviour {
 
     public Sprite openSprite;
     public Sprite closedSprite;
     public float closeTime;
+    public GameObject textObject;
 
+    Text mailText;
     SpriteRenderer spriteRenderer;
 
+    static uint mailDelivered = 0;
+
     bool isOpen;
+
+    static uint[] throwableArray = { 20, 50 };
+    static uint throwableIndex = 0;
 
 	// Use this for initialization
 	void Start () {
         spriteRenderer = (SpriteRenderer)renderer;
+        mailText = textObject.GetComponent<Text>();
 
         Open();
 	}
@@ -46,6 +55,7 @@ public class mailbox : MonoBehaviour {
     {
         if (isOpen)
         {
+            IncreaseMailDelivered((uint)avatarThrowing.shittyInstance.currentThrowingObject.mailValue);
             Close();
         }
     }
@@ -54,5 +64,21 @@ public class mailbox : MonoBehaviour {
     {
         spriteRenderer.sprite = openSprite;
         isOpen = true;
+    }
+
+    void IncreaseMailDelivered(uint mailJustDelivered)
+    {
+        mailDelivered += mailJustDelivered;
+        mailText.text = "Mail Delivered: " + mailDelivered;
+
+        if (throwableIndex < throwableArray.Length)
+        {
+            if (mailDelivered >= throwableArray[throwableIndex])
+            {
+                Debug.Log("Increase thrown object " + throwableIndex);
+                throwableIndex++;
+                avatarThrowing.shittyInstance.IncrementThrownObject();
+            }
+        }
     }
 }
