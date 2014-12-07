@@ -16,6 +16,9 @@ public class mailbox : MonoBehaviour {
 
     bool isOpen;
 
+    static uint[] throwableArray = { 20, 50 };
+    static uint throwableIndex = 0;
+
 	// Use this for initialization
 	void Start () {
         spriteRenderer = (SpriteRenderer)renderer;
@@ -52,7 +55,7 @@ public class mailbox : MonoBehaviour {
     {
         if (isOpen)
         {
-            IncreaseMailDelivered(1);
+            IncreaseMailDelivered((uint)avatarThrowing.shittyInstance.currentThrowingObject.mailValue);
             Close();
         }
     }
@@ -67,5 +70,15 @@ public class mailbox : MonoBehaviour {
     {
         mailDelivered += mailJustDelivered;
         mailText.text = "Mail Delivered: " + mailDelivered;
+
+        if (throwableIndex < throwableArray.Length)
+        {
+            if (mailDelivered >= throwableArray[throwableIndex])
+            {
+                Debug.Log("Increase thrown object " + throwableIndex);
+                throwableIndex++;
+                avatarThrowing.shittyInstance.IncrementThrownObject();
+            }
+        }
     }
 }

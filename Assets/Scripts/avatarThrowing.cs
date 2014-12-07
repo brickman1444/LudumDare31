@@ -3,7 +3,7 @@ using System.Collections;
 
 public class avatarThrowing : MonoBehaviour {
 
-    public GameObject throwingPrefab;
+    public thrownObjectData[] throwingPrefabs;
     public float secondsBetweenThrows;
     public float throwingSpeed;
     public float throwingAngularSpeed;
@@ -13,10 +13,21 @@ public class avatarThrowing : MonoBehaviour {
 
     private float lastThrowTime = 0;
     private Vector3 lastThrowDirection = Vector3.zero;
+    private uint throwingPrefabIndex = 0;
+
+    public static avatarThrowing shittyInstance = null;
+
+    public thrownObjectData currentThrowingObject;
+
+    void Awake()
+    {
+        shittyInstance = this;
+    }
 
 	// Use this for initialization
 	void Start () {
-        
+        throwingPrefabIndex = 0;
+        currentThrowingObject = throwingPrefabs[throwingPrefabIndex];
 	}
 	
 	// Update is called once per frame
@@ -44,11 +55,24 @@ public class avatarThrowing : MonoBehaviour {
 
             if (throwDirection != Vector3.zero)
             {
-                GameObject thrownObject = (GameObject)GameObject.Instantiate(throwingPrefab, transform.position + throwDirection * throwOffset, Quaternion.identity);
+                GameObject thrownObject = (GameObject)GameObject.Instantiate(currentThrowingObject.prefab, transform.position + throwDirection * throwOffset, Quaternion.identity);
                 thrownObject.GetComponent<thrownObject>().Initialize(throwDirection * throwingSpeed, throwingAngularSpeed);
             }
 
             lastThrowDirection = throwDirection;
         }
 	}
+
+    public void IncrementThrownObject()
+    {
+        throwingPrefabIndex++;
+        currentThrowingObject = throwingPrefabs[throwingPrefabIndex];
+    }
+}
+
+[System.Serializable]
+public class thrownObjectData
+{
+    public int mailValue;
+    public GameObject prefab;
 }
