@@ -4,10 +4,14 @@ using System.Collections;
 public class dogBehaviour : MonoBehaviour {
 
     public float speed;
+    public float biteTime;
+    public float bitePushBack;
+
+    private float functionalSpeed;
 
 	// Use this for initialization
 	void Start () {
-	
+        functionalSpeed = speed;
 	}
 	
 	// Update is called once per frame
@@ -16,8 +20,58 @@ public class dogBehaviour : MonoBehaviour {
         Vector3 toAvatar = avatarMovement.shittyInstance.transform.position - transform.position;
         toAvatar.Normalize();
 
-        Vector3 velocity = toAvatar * speed * Time.fixedDeltaTime;
+        Vector3 velocity = toAvatar * functionalSpeed * Time.fixedDeltaTime;
 
         rigidbody2D.velocity = velocity;
 	}
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        GameObject go = collision.gameObject;
+
+        switch (go.tag)
+        {
+            case "ThrownObject": 
+                Die(); 
+                break;
+            case "Player":
+                Bite();
+                break;
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        GameObject go = collider.gameObject;
+
+        switch (go.tag)
+        {
+            case "ThrownObject":
+                Die();
+                break;
+        }
+    }
+
+    void Die()
+    {
+        Debug.Log("Die " + gameObject.name);
+        Destroy(gameObject);
+    }
+
+    void Bite()
+    {
+        Debug.Log("Bite " + gameObject.name);
+        Vector3 avatarPos = avatarMovement.shittyInstance.transform.position;
+        Vector3 dirAwayFromAvatar = transform.position - avatarPos;
+
+        rigidbody2D.AddForce(dirAwayFromAvatar * bitePushBack);
+
+        functionalSpeed = 0;
+        Invoke("ResetFunctionalSpeed", biteTime);
+    }
+
+    void ResetFunctionalSpeed()
+    {
+        functionalSpeed = speed;
+    }
 }
