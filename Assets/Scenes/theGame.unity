@@ -1089,11 +1089,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   throwingPrefabs:
   - mailValue: 1
-    prefab: {fileID: 100000, guid: 091f1ffb90427d943bfe9dfd8258bd7d, type: 2}
+    prefab: {fileID: 100000, guid: c46e95049daaef44fb8fb04efaf49964, type: 2}
   - mailValue: 5
     prefab: {fileID: 100000, guid: 091f1ffb90427d943bfe9dfd8258bd7d, type: 2}
   - mailValue: 10
-    prefab: {fileID: 100000, guid: 091f1ffb90427d943bfe9dfd8258bd7d, type: 2}
+    prefab: {fileID: 100000, guid: eef8bad3df876f84fbcb62a9651502c6, type: 2}
   secondsBetweenThrows: .200000003
   throwingSpeed: 30
   throwingAngularSpeed: 1000
@@ -1140,7 +1140,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3db017528e8286847b9e87ba8e30ef7b, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 3db017528e8286847b9e87ba8e30ef7b, type: 2}
       propertyPath: m_IsActive
@@ -1581,7 +1581,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dccfc55889931a443b5ee989cb0a3581, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: dccfc55889931a443b5ee989cb0a3581, type: 2}
       propertyPath: m_IsActive
@@ -2413,7 +2413,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5d13ecdc81954b643abb0840f84fd33c, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 5d13ecdc81954b643abb0840f84fd33c, type: 2}
       propertyPath: m_IsActive
@@ -2773,7 +2773,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d0f4d24385f27f0459047846b2c2148b, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 21200000, guid: d0f4d24385f27f0459047846b2c2148b, type: 2}
       propertyPath: m_Sprite
