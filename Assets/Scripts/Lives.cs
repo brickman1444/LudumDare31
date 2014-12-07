@@ -7,7 +7,7 @@ public class Lives : MonoBehaviour {
 	public GameObject newLives; //lives prefab
 	public float spacingX;  //for formating
 	public static int LIVES; // number of player lives
-	private ArrayList lives = new ArrayList(); //holds the number of lives
+	//private ArrayList lives = new ArrayList(); //holds the number of lives
 	public Vector3 placement;
 	// Use this for initialization
 	void Start () {
@@ -16,13 +16,17 @@ public class Lives : MonoBehaviour {
 		AddLives (startingLives);
 		LIVES = startingLives;
 	}
-	
+
+    public static Lives shittyInstance = null;
+
+    void Awake()
+    {
+        shittyInstance = this;
+    }
+
 	// Update is called once per frame
 	void Update () {
-		if (LIVES != lives.Count)
-		{
-			LoseLives();
-		}
+
 	}
 
 	public void AddLives(int n) 
@@ -32,19 +36,23 @@ public class Lives : MonoBehaviour {
 			Transform NewLives =  ((GameObject)Instantiate(newLives.gameObject)).transform;
 			NewLives.position = placement;
 			placement.x += spacingX;
-			lives.Add (NewLives);  //adding to array
+			//lives.Add (NewLives);  //adding to array
 			NewLives.parent = transform;
 		}
 	}
 	public void LoseLives()
-	{   //Debug.Log("Ran the loselives");
+	{   
+        Debug.Log("Ran the loselives");
+
+        Lives.LIVES--; //subtracts lives
+
 		int childs = transform.childCount;
 
 		if (childs >1 )
 		{
 			GameObject.Destroy(transform.GetChild(childs-1).gameObject);
 		}
-		else if (LIVES == 0)
+		else if (LIVES <= 0)
 		{
 			//Debug.Log("Ran the scene change");
 			Application.LoadLevel("theGame2");  //make this whatever you want
