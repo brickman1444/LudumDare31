@@ -170,7 +170,7 @@ public class dogBehaviour : MonoBehaviour {
 
             dogAnimator.SetInteger(animationKey, 5);
 
-            Lives.LIVES--; //subtracts lives
+            Lives.shittyInstance.LoseLives();
 
             Vector3 avatarPos = avatarMovement.shittyInstance.transform.position;
             Vector3 dirAwayFromAvatar = transform.position - avatarPos;
