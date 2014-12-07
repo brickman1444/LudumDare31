@@ -14,7 +14,7 @@ GameObject:
   - 58: {fileID: 5800000}
   m_Layer: 0
   m_Name: Large Dog
-  m_TagString: Untagged
+  m_TagString: Dog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68,7 +68,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a30b079f0eaaa448b86dc055ee8e8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: .100000001
+  speed: 20
+  biteTime: 1
+  bitePushBack: 10
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
