@@ -9,6 +9,8 @@ public class mailbox : MonoBehaviour {
     public float closeTime;
     public GameObject textObject;
 
+    public AudioSource delivered;
+
     Text mailText;
     SpriteRenderer spriteRenderer;
 
@@ -70,6 +72,7 @@ public class mailbox : MonoBehaviour {
     {
         mailDelivered += mailJustDelivered;
         mailText.text = "Mail Delivered: " + mailDelivered;
+        delivered.Play();
 
         if (throwableIndex < throwableArray.Length)
         {
