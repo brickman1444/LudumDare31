@@ -55,7 +55,7 @@ public class Lives : MonoBehaviour {
 		else if (LIVES <= 0)
 		{
 			//Debug.Log("Ran the scene change");
-			Application.LoadLevel("theGame2");  //make this whatever you want
+			Application.LoadLevel("theGame");  //make this whatever you want
 		}
 	}	
 }
